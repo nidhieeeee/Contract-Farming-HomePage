@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(73, 245, 73); 
+}
+/* navbar Style CSS */
+.img svg{
+    height: 70px;
+    width: 70px;
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(240, 232, 232);
+    width: 700px;
+    height: 40px;
+    border-radius: 15px;
+    padding: 0px 15px 0px 65px;
+    align-items: center;
+}
+.searchText p{
+    color: gray;
+    font-weight: 600;
+}
+.search-icon img{
+    height: 30px;
+    width: 30px;
+}
+.profile svg{
+    height: 70px;
+    width: 70px;
+    background-color:rgb(240, 232, 232) ;
+    border-radius: 100%;
+}
+#navbar{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+background-color: white;
+}
+
+/* User Profile */
+.profilePic svg{
+        height: 90px;
+        width: 90px;
+        background-color:rgb(240, 232, 232) ;
+        border-radius: 100%;
+
+}
+.farmer{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.farmer svg{
+    height: 30px;
+    width: 30px;
+}
+.farmer p{
+    color:gray;
+    font-size: 1.2rem;
+}
+.userText{
+    font-size: 1.8rem;
+}
+.userSetup{
+    width: 450px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 20px 20px 0px 20px;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    
+}
+.userProfile{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 450px;
+    gap: 30px;
+}
+.line{
+    border: 2px solid rgb(240, 232, 232);
+}
+
+/* Contractor Profiles */
+.conProfile svg{
+        height: 80px;
+        width: 80px;
+        background-color:rgb(240, 232, 232) ;
+        border-radius: 100%; 
+        margin-top: 5px;
+}
+.button{
+    width: 90px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    border: none;
+    text-align: center;
+    padding: 5px;
+    /* margin-left: 25px;
+    margin-top: 5px; */
+    margin: 5px 15px 5px 25px;
+}
+.button p{
+    font-size: 0.8rem;
+}
+.proTexts{
+    font-size: 1.5rem;
+    margin-top:5px ;
+}
+.proText{
+    font-size: 2.4rem;
+    color: white;
+    margin-top: 15px;
+}
+.conProfile{
+background-color: white;
+width: 150px;
+text-align: center;
+border-radius: 15px;
+height: 160px;
+box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+.contractors{
+    display: flex;
+    gap:20px;
+}
+.main{
+    display: flex;
+    gap: 30px;
+}
+
+
+
+/* Contracts Deal */
+.cropContracts1 svg{
+    height: 120px;
+    width: 120px;
+    margin-top: 20px;
+}
+.cropContracts1 p {
+font-size: 1.4rem;
+font-weight:600;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.cropContracts1 span{
+    color: gray;
+    font-weight: 600;
+    
+}
+.cropContracts1{
+    background-color: white;
+height: 290px;
+width: 230px;
+border-radius: 15px;
+text-align: center;
+box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+margin-bottom: 0;
+}
+.cropContracts{
+    display: flex;
+    gap: 30px;
+}
